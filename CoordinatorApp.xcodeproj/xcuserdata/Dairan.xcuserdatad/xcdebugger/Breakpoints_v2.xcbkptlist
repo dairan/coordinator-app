@@ -7,32 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "34F2CEAF-7E86-4B30-B4BF-E5332CCBE6F1"
-            shouldBeEnabled = "Yes"
+            uuid = "5393EAF9-6CAB-425A-80F6-3D420ED41DAD"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CoordinatorApp/ViewController.swift"
+            filePath = "CoordinatorApp/LoginView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "criarContaButtonTap()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CBB53E54-0D51-425E-B0B8-420EDE8E4102"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoordinatorApp/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "comprarButtonTap()"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "loginButtonDidTap()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

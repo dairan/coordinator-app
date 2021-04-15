@@ -21,21 +21,20 @@ class PrincipalCoordinator: Coordinator {
   var navController: UINavigationController
 
   func iniciar() {
-    let vc = ViewController.instanciar()
+    let vc = LoginViewController()
     vc.coordinator = self
     navController.pushViewController(vc, animated: false)
   }
 
-  func comprar() {
-    let vc = ComprarViewController.instanciar()
+  func principalScreen() {
+    let vc = PrincipalViewController()
     vc.coordinator = self
     navController.pushViewController(vc, animated: true)
   }
 
-  func criarConta() {
-    let vc = CriarContaViewController.instanciar()
+  func lembrarSenha() {
+    let vc = LembrarSenhaViewController()
     navController.pushViewController(vc, animated: true)
   }
-
 
 }
